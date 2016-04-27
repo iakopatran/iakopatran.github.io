@@ -319,10 +319,10 @@ color: white;
 }
 
 #prof-pic {
-	background-image: url(/Users/JVtran/GitHub/iakopatran.github.io/assets/img/empty.jpg);
+	background-image: url(/assets/img/empty.jpg);
 }
 #prof-pic2 {
-	background-image: url(/Users/JVtran/GitHub/iakopatran.github.io/assets/img/me.jpg);
+	background-image: url(/assets/img/me.jpg);
 }
 
 .circle-img {
@@ -408,7 +408,7 @@ position:relative;
     z-index: 100;
 }
 #insert-pic {
-	background-image: url(/Users/JVtran/GitHub/iakopatran.github.io/assets/img/chairs.jpg);
+	background-image: url(/assets/img/chairs.jpg);
 }
 #yellowc {
 	background-color: #FDD017;
