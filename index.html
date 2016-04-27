@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Final Project</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700' rel='stylesheet' type='text/css'>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js">
+        </script>
+        <script src = "assets/js/script.js"></script>
+    </head>
+    <body>
+
+      <div id="modal-container">
+        <div id="modal-overlay"></div>
+          <div id="modal-box">
+            <!-- Q2: Your Content for Modal Box Here -->
+            <div id = "login">Profile Picture</div>
+            <div id = "prof-pic" class = "circle-img"></div>
+            <div id = "input"><form>
+                <input type="file" name="pic" accept="image/*">
+              </form>
+            </div>
+            <div id = "buttons">
+            <div id = "oink"><button type="button">Submit</button></div>
+            <div id = "oink2"><button type="button">Cancel</button></div>
+          </div>
+          </div>
+      </div>
+
+      <div id="circle-container">
+        <div id="circle-overlay"></div>
+          <div id="circle-box">
+            <!-- Q2: Your Content for Modal Box Here -->
+            <div id = "login">Post</div>
+            <div id = "insert-pic" class = "circle-img"></div>
+            <div id = "input"><form>
+                <textarea rows="4" cols="50">
+                </textarea>
+              </form>
+            </div>
+            <div id = "buttons">
+            <div id = "oink"><button type="button">Submit</button></div>
+            <div id = "oink2"><button type="button">Cancel</button></div>
+            <div>
+            <div id = "yellowc" class="circle"></div>
+            <div id = "bluec" class="circle"></div>
+            <div id = "blackc" class="circle"></div>
+          </div>
+          </div>
+          </div>
+      </div>
+
+        <!-- Sidebar Hamburger Icon -->
+        <div id = "sidebar-button">
+            <a id="nav-toggle">
+                <span></span>
+            </a>
+        </div>
+
+        <!-- Sidebar -->
+        <nav class = "sidebar-container">
+            <!-- Question 1: Sidebar Code Here -->
+            <ul>
+              <li class = "sidebar-item">Home</li>
+              <li class = "sidebar-item">Login</li>
+              <li class = "sidebar-item">Friends</li>
+              <li class = "sidebar-item">About</li>
+            </ul>
+            <!-- End Question 1 Here (Use as many lines as needed, but don't add code below this point)-->
+        </nav>
+
+        <!-- Page Wrapper, Consisting of All the Sections -->
+        <div class = "page-wrapper">
+            <!-- Carousel Section -->
+
+            <!-- Name Section -->
+            <section class = "section" id = "name-section">
+                <div class = "text" id = "name-text">
+                    <!-- I am Jacob Tran -->
+                    Re: Live
+                </div>
+            </section>
+
+            <!-- Major Section -->
+            <div class = "section" id = "major-section">
+                <div class = "text" id = "major-text">
+                </div>
+            </div>
+            <div id = "prof-pic2" class="arrow_box">
+            </div>
+            <div class = "section" id = "fact-section">
+                <div class = "text" id = "fact-text">
+              </div>
+            </div>
+            <div class = "section" id = "click-section">
+              <div id="container">
+            		<div id="first-row" class="row">
+            			<div id = "1" class="circle"></div>
+            			<div id = "2" class="circle"></div>
+            			<div id = "3" class="circle"></div>
+            			<div id = "4" class="circle"></div>
+            			<div id = "5" class="circle"></div>
+                  <div id = "6" class="circle"></div>
+            			<div id = "7" class="circle"></div>
+            			<div id = "8" class="circle"></div>
+            		</div>
+
+            		<div id="second-row" class="row">
+            			<div id = "9" class="circle"></div>
+            			<div id = "10" class="circle"></div>
+            			<div id = "11" class="circle"></div>
+            			<div id = "12" class="circle"></div>
+            			<div id = "13" class="circle"></div>
+                  <div id = "14" class="circle"></div>
+            			<div id = "15" class="circle"></div>
+            			<div id = "16" class="circle"></div>
+            		</div>
+
+            		<div id="third-row" class="row">
+            			<div id = "17" class="circle"></div>
+            			<div id = "18" class="circle"></div>
+            			<div id = "19" class="circle"></div>
+            			<div id = "20" class="circle"></div>
+            			<div id = "21" class="circle"></div>
+                  <div id = "22" class="circle"></div>
+            			<div id = "23" class="circle"></div>
+            			<div id = "24" class="circle"></div>
+            		</div>
+            	</div>
+            </div>
+            <section class = "section" id = "carousel-section">
+                <div class = "carousel-container">
+                <!-- Question 2: Carousel Code Here -->
+                <div id = "carousel">
+                  <div class = "carousel-item">
+                    <div class = "quote">
+
+                      <div id = "troll" class="circle">
+                          <div class = "text" >
+                            I got a good grade.
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class = "carousel-item">
+                    <div class = "quote">
+
+                      <div id = "troll1" class="circle"><div class = "text" >
+                        Today my cousins visited.
+                      </div></div>
+                    </div>
+                  </div>
+                  <div class = "carousel-item">
+                    <div class = "quote">
+
+                      <div id = "troll2" class="circle"><div class = "text" >
+                        My dog died.
+                      </div></div>
+                    </div>
+                  </div>
+                  <div class = "carousel-item">
+                    <div class = "quote">
+
+                      <div id = "troll3" class="circle"><div class = "text" >
+                        I reconnected with an old friend.
+                      </div></div>
+                    </div>
+                  </div>
+                  <div class = "carousel-item">
+                    <div class = "quote">
+
+                      <div id = "troll4" class="circle"><div class = "text" >
+                        My little brother was born.
+                      </div></div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- End Question 2 Here (Use as many lines as needed, but don't add code below this point)-->
+                    <div id="carousel-prev">
+                        <img class="img-scaled" src="assets/img/arrowleft.png" />
+                    </div>
+                    <div id="carousel-next">
+                        <img class="img-scaled" src="assets/img/arrowright.png" />
+                    </div>
+
+                </div>
+            </section>
+            <section>
+            <div class = "section" id = "disclaimer-section">
+              <div class = "text" id = "disclaimer">
+                This site has been a brain child of mine for quite some time. Although it is FAR from being complete, I plan to finish it.
+                The idea of Re: Live is to provide an online journal for people to record their feelings. The grid of circles are meant to
+                record events (I couldn't figure it out) and after some time the user should see a grid of whatever color
+                their memories are. The point is even if you have many blue circles and only one yellow circle the site is
+                meant to remind the user that even if their lives have been filled with sadness for some time, there was a time when
+                you were happy, and they can be happy again. I've seen family and friends suffer from depression and hopefully this site,
+                when complete, can help them during the days when they don't know if they can feel again.
+              </div>
+            </section>
+        </div>
+    </body>
+</html>
